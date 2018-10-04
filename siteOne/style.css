@@ -58,5 +58,26 @@
     box-sizing: border-box;
     background: #5585a2;
     border-radius: 30px; }
+.content .b-text-page .key {
+  text-align: center;
+  margin-top: 60px;
+  margin-bottom: 60px; }
+  .content .b-text-page .key h2 {
+    margin-top: 40px;
+    margin-bottom: 40px; }
+    .content .b-text-page .key h2 span {
+      color: #a0d481; }
+  .content .b-text-page .key .key-item-parent {
+    display: flex; }
+    .content .b-text-page .key .key-item-parent .key-item {
+      max-width: 230px;
+      padding: 15px;
+      box-sizing: border-box; }
+      .content .b-text-page .key .key-item-parent .key-item h3 {
+        font-size: 16px;
+        margin-top: 20px;
+        margin-bottom: 20px; }
+      .content .b-text-page .key .key-item-parent .key-item p {
+        margin: 0; }
 
 /*# sourceMappingURL=style.css.map */
