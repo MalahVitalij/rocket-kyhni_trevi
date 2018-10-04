@@ -123,5 +123,68 @@
           .content .b-text-page .services .ser-par .ser-par-item .ser-item-text {
             margin-left: 10px;
             margin-right: 10px; } }
+.content .b-text-page .price h2 {
+  font-weight: 600;
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 40px; }
+.content .b-text-page .price p {
+  margin: 0;
+  font-weight: 600; }
+.content .b-text-page .price .price-sale {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+  margin-bottom: 40px; }
+  .content .b-text-page .price .price-sale .price-sale-item {
+    display: inline-flex;
+    align-items: center; }
+    .content .b-text-page .price .price-sale .price-sale-item .price-sale-img {
+      margin-left: 10px;
+      margin-right: 10px; }
+    .content .b-text-page .price .price-sale .price-sale-item .price-sale-text {
+      text-align: left;
+      max-width: 180px;
+      margin-left: 10px;
+      margin-right: 10px; }
+      .content .b-text-page .price .price-sale .price-sale-item .price-sale-text h2 {
+        margin: 0;
+        text-align: left;
+        font-weight: 400;
+        color: #72bf44;
+        font-size: 14px; }
+      .content .b-text-page .price .price-sale .price-sale-item .price-sale-text p {
+        margin: 0;
+        font-weight: 400;
+        font-size: 12px; }
+.content .b-text-page .price .price-count {
+  display: flex;
+  justify-content: space-around;
+  box-shadow: 0 0 20px #d4d4d4;
+  border-radius: 5px; }
+  .content .b-text-page .price .price-count .price-count-item {
+    text-align: center;
+    max-width: 280px;
+    padding: 50px;
+    box-sizing: border-box; }
+    @media (max-width: 1400px) {
+      .content .b-text-page .price .price-count .price-count-item {
+        padding: 40px 25px; } }
+    .content .b-text-page .price .price-count .price-count-item h2 {
+      margin: 0;
+      color: #72bf44; }
+      .content .b-text-page .price .price-count .price-count-item h2 span {
+        color: black;
+        text-decoration: line-through;
+        font-weight: initial;
+        font-size: 14px; }
+    .content .b-text-page .price .price-count .price-count-item p {
+      font-weight: initial; }
+.content .b-text-page .price .price-write {
+  font-size: 14px;
+  margin-top: 40px;
+  margin-bottom: 40px; }
+  .content .b-text-page .price .price-write span {
+    color: #72bf44; }
 
 /*# sourceMappingURL=style.css.map */
