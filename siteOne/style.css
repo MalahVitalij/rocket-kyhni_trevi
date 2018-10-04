@@ -186,5 +186,18 @@
   margin-bottom: 40px; }
   .content .b-text-page .price .price-write span {
     color: #72bf44; }
+.content .b-text-page .price .stages .stages-par {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  display: flex;
+  -webkit-justify-content: space-between;
+  justify-content: space-between; }
+  .content .b-text-page .price .stages .stages-par .stages-item {
+    text-align: center; }
+    .content .b-text-page .price .stages .stages-par .stages-item h4 {
+      font-size: 14px;
+      font-weight: 400;
+      margin-top: 20px;
+      margin-bottom: 0; }
 
 /*# sourceMappingURL=style.css.map */
