@@ -4,5 +4,16 @@
 .content .b-text-page .text p {
   margin-top: 30px;
   margin-bottom: 30px; }
+.content .b-text-page .images {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  display: flex; }
+  .content .b-text-page .images .images-left img {
+    width: 255px;
+    max-width: initial !important;
+    height: 320px; }
+  .content .b-text-page .images .images-right img {
+    width: 270px;
+    height: 160px; }
 
 /*# sourceMappingURL=style.css.map */
